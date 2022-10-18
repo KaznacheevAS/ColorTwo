@@ -7,6 +7,8 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		AB583FA328FC5E5800BB6344 /* BackgraundViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = AB583FA228FC5E5800BB6344 /* BackgraundViewController.swift */; };
+		AB583FA528FC60D700BB6344 /* Delegat+Protocol.swift in Sources */ = {isa = PBXBuildFile; fileRef = AB583FA428FC60D700BB6344 /* Delegat+Protocol.swift */; };
 		ABF4B38E28E8A697003F7F97 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = ABF4B38D28E8A697003F7F97 /* AppDelegate.swift */; };
 		ABF4B39028E8A697003F7F97 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = ABF4B38F28E8A697003F7F97 /* SceneDelegate.swift */; };
 		ABF4B39228E8A697003F7F97 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = ABF4B39128E8A697003F7F97 /* ViewController.swift */; };
@@ -16,6 +18,8 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		AB583FA228FC5E5800BB6344 /* BackgraundViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BackgraundViewController.swift; sourceTree = "<group>"; };
+		AB583FA428FC60D700BB6344 /* Delegat+Protocol.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Delegat+Protocol.swift"; sourceTree = "<group>"; };
 		ABF4B38A28E8A697003F7F97 /* test.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = test.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		ABF4B38D28E8A697003F7F97 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		ABF4B38F28E8A697003F7F97 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -63,6 +67,8 @@
 				ABF4B39628E8A698003F7F97 /* Assets.xcassets */,
 				ABF4B39828E8A698003F7F97 /* LaunchScreen.storyboard */,
 				ABF4B39B28E8A698003F7F97 /* Info.plist */,
+				AB583FA228FC5E5800BB6344 /* BackgraundViewController.swift */,
+				AB583FA428FC60D700BB6344 /* Delegat+Protocol.swift */,
 			);
 			path = test;
 			sourceTree = "<group>";
@@ -139,7 +145,9 @@
 			buildActionMask = 2147483647;
 			files = (
 				ABF4B39228E8A697003F7F97 /* ViewController.swift in Sources */,
+				AB583FA528FC60D700BB6344 /* Delegat+Protocol.swift in Sources */,
 				ABF4B38E28E8A697003F7F97 /* AppDelegate.swift in Sources */,
+				AB583FA328FC5E5800BB6344 /* BackgraundViewController.swift in Sources */,
 				ABF4B39028E8A697003F7F97 /* SceneDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
